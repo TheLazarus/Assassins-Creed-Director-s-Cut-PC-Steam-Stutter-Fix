@@ -3,8 +3,6 @@ use std::fs;
 use std::path::Path;
 
 pub fn patch_executables(executables: [&str; 2]) {
-    println!("Finding Executables...");
-
     for exec in executables {
         find_and_patch_executable(exec);
     }

@@ -15,5 +15,5 @@ fn main() {
     println!("✅ Done, Successfully patched executables, for more instructions check out README");
     println!("GitHub - ");
 
-    thread::sleep(Duration::from_secs(5));
+    thread::sleep(Duration::from_secs(10));
 }
