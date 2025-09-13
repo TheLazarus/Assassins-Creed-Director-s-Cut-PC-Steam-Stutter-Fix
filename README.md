@@ -8,6 +8,7 @@ A small patch I wrote for fixing the stuttering issue in AC Director's Cut PC St
 - After running this, you should be able to see two new files named AssassinsCreed_Dx9_patched.exe and AssassinsCreed_Dx10_patched.exe
 - Take a backup of your original exe's
 - Rename these files back to AssassinsCreed_Dx9.exe and AssassinsCreed_Dx10.exe (replace the original ones after taking backup)
+- Run the game using Steam "Play" button, or you can also launch directly via these executables
 - Enjoy!!
 
 
