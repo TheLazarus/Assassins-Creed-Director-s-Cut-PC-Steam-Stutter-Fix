@@ -3,8 +3,7 @@ mod utils;
 
 use crate::constants::AC_EXECUTABLES;
 use crate::utils::patch_executables;
-use std::thread;
-use std::time::Duration;
+use std::io;
 
 fn main() {
     println!("Assassins Creed Stutter Fix v0.1 - with love by laazarus");
@@ -15,5 +14,7 @@ fn main() {
     println!("✅ Done, Successfully patched executables, for more instructions check out README");
     println!("GitHub - ");
 
-    thread::sleep(Duration::from_secs(10));
+    println!("Press any key to quit...");
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).unwrap();
 }
